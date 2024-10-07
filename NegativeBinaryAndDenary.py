@@ -104,7 +104,7 @@ def decimal_to_binary():
         twos_complement = False
         binary_number = decimal_conversion(decimal)
         print(f"\n{decimal} Converted Using Standard Binary Conversion is {binary_number}\n")
-        menu()
+    menu()
 
 def decimal_conversion(decimal):
     binary = []
